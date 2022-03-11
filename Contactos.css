@@ -1,0 +1,82 @@
+#Titule{
+    font-size: 50px;
+    margin-top: 0px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: calc(40px + 3vw);
+}
+#Padre{
+    background-image: url(/IMG/JSansalone\ Logo\ copia.png);
+    position: sticky;
+    top: 0px;
+    right: 0%;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(138, 10, 10);
+
+}
+#Hijo1{
+    display: inline-block;
+    margin-left: 770px;
+    background-color: rgb(138, 10, 10);
+    font-size: 23px;
+    font-weight: 800;
+    margin-right: 7px;
+}
+#Hijo2{
+    display: inline-block;
+    background-color: rgb(138, 10, 10);
+    font-size: 23px;
+    font-weight: 800;
+    margin-right: 7px;
+}
+#Hijo3{
+    display: inline-block;
+    background-color: rgb(138, 10, 10);
+    font-size: 23px;
+    font-weight: 800;
+    margin-right: 7px;
+}
+#Hijo4{
+    display: inline-block;
+    background-color: rgb(138, 10, 10);
+    font-size: 23px;
+    font-weight: 800;
+    margin-right: 7px;
+}
+#Hijo5{
+    display: inline-block;
+    background-color: rgb(138, 10, 10);
+    font-size: 23px;
+    font-weight: 800;
+    margin-right: 7px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    background-color: rgb(79, 79, 219);
+    
+}
+.imagen{
+    background-image: url(ciudad.jpg);
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height: 400px;
+}
+#Contactenos{
+    color: white;
+    font-size: 35px;
+}
+
+section{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    border-style: double;
+}
